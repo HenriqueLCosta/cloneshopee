@@ -1,2 +1,2 @@
-# cloneshopee
+# cloneShopee
 Front do site Shopee

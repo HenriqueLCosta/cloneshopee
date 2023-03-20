@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    text-align: -webkit-center;
+}
+/* Header   */
+header{
+    background-color: #ee4d2d;
+    color: #ffffff;
+}
+.headerclass {
+width: 1200px;
+}
+.acesso-rapido{
+    display: flex;
+    margin-left: 30px;
+}
+.contato-rapido ul{
+    display: inline-flex;
+}
+.contato-rapido ul li{
+    padding: 10px 0px 10px 5px;
+
+}
+.opcoes_rapido{
+    display: flex;
+    padding-left: 20%;
+}
+.opcoes_rapido ul{
+    display: inline-flex;
+}
+.opcoes_rapido ul li{
+    padding: 10px 0px 10px 15px;
+}
+.acesso{
+    display: flex;
+    text-align: right;
+}
+.acesso ul{
+    display: inline-flex;
+}
+.acesso ul li{
+    padding: 10px 0px 10px 5px;
+}
+/* Logo e PEsquisa   */
+.logo-pesquisa{
+    display: flex;
+}
+.logo-pesquisa ul li{
+    display: inline-flex;
+}
+.logo-pesquisa li{
+    font-size: 13px;
+    padding: 3px 0px 0px 3px;
+}
+
+.logo-pesquisa img{
+    padding: 10px 30px 10px 35px;
+}
+.pesquisa{
+    width: 60%;
+    
+}
+.logo-pesquisa svg{
+    color: #fff;
+    stroke: #fff;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    fill: currentColor;
+    padding: 18px 0px 0px 60px;
+}
+.pesquisa input{
+    font-size: 14px;
+    width: 89%;
+    height: 94%;
+    border: 0;
+    border-radius: 2px;
+    margin-top: 1px;
+    float: left;
+}
+.botao-pesquisa{
+    display: inline-block;
+    width: 10%;
+    height: 87%;
+    background-color: #ee4d2d;
+    border-radius: 3px;
+    margin-top: 3px;
+    
+}
+.uniao{
+    background-color: #fff;
+    height: 45px;
+    border-radius: 3px;
+}
+.uniao svg{
+    fill: currentColor;
+    padding: 6px 0 0 0px;
+}
+
+
+/* BAnner */
+.banner{
+    display: flex;
+    width: 1200px;
+}
+.banner-scroll img{
+    padding: 35px 0px 35px 0px;
+}
+.cupons{
+    margin-top: 35px;
+    margin-left: 5px;
+}
+.cupons img{
+    width: 96%;
+}
+
+/* MEnu  */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: -webkit-center;
+    width: 1200px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.menu img{
+    display: block;
+}
+/* Propaganda 1 */
+
+.anuncio1, .section1 {
+    background-color: #e8e8e8;
+    padding: 5px;
+}
+.anuncio1, .anuncio2{
+    padding: 15px;
+}
+.ofertas-relampago{
+    background-color: #ffffff;
+    width: 90%;
+    height: 300px;
+    text-align: left;
+}
+.ofertarelampagoimg {
+    padding: 15px;
+}
+.ofertas-relampago a{
+    color: #ee4d2d;
+    float: right;
+    padding: 15px;
+    
+}
+.ofertas{
+    display: flex;
+    justify-content: space-around;
+    text-align: -webkit-center;
+    width: 1200px;
+}
+.ofertas span{
+    color: #ee4d2d;
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: block;
+}
+.itensvendidos {
+    background-color: #f77a4f;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: inherit;
+}
+/* CATEGORIAS */
+
+.categorias{
+    background-color: #ffffff;  
+    width: 1200px;
+    text-align: left;
+}
+.categorias h3{
+    font-size: 1rem;
+    color: rgba(0,0,0,.54);
+    font-weight: 500;
+    padding: 15px;
+}
+.categ {
+    display: flex;
+    justify-content: space-around;
+}
+.categ img {
+    display: block;
+}
+.blococateg{
+    border: 1px solid #e8e8e8;
+    border-left: 0;
+    border-bottom: 0;
+    padding: 10px; 
+    text-align: -webkit-center;
+}
+.blococateg a {
+    color: black;
+}
+/*Destaques */
+.destaque {
+    margin-top: 20px;
+    background-color: #ffffff;
+    width: 1200px;
+    text-align: left;
+    display: inline-block;
+
+}
+.destaque h3 {
+    font-size: 1rem;
+    color: #ee4d2d;
+    font-weight: 500;
+    padding: 20px;
+    font-weight: 900;
+    float: left;
+    
+}
+.destaque a{
+    color: #ee4d2d;
+    float: right;
+    padding: 15px;
+}
+.ofertas-destaque {
+    border-top: 1px solid #e8e8e8;
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+}
+.oferta-item {
+    display: block;
+    text-align: -webkit-center;
+}
+.oferta-item h1 {
+    margin: 1.25rem;
+    color: #555;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.oferta-item img{
+    padding-top: 15px;
+    width: 180px;
+    height: 180px;
+    display: block;
+}
+.oferta-item span{
+    background-color: rgba(0,0,0,.26);
+    display: block;
+    color: #ffffff;
+}
+.descoberta-dia{
+    margin-top: 25px;
+    width: 1200px;
+}
+.titulo-ofertas{
+    background-color: #ffffff;
+    border-bottom: 4px solid #000000;
+    font-size: 1rem;
+    font-family: -apple-system,Helvetica Neue,Helvetica,Roboto,Droid Sans,Arial,sans-serif;
+    padding: 20px;
+}
+/* Descoberta do dia */
+.ofertas-dia {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-bottom: 50px;
+
+}
+.produto-item {
+    background-color: #ffffff;
+    /*Usado para esconder texto que faz ultrapassar o tamanho do box*/
+    -webkit-box-orient: vertical;
+    width: 190px;
+    height: 282px;
+    margin: 4px;
+    border: 1px solid transparent;
+}
+.text-nome {
+    text-align: left;
+    font-size: 13px;
+    height: 30px;
+    width: 180px;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    padding: 5px;
+}
+.valor{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    color: #ee4d2d;
+    height: 45px;
+    align-items: end;
+    font-size: 18px;
+}
+.vendidosval {
+    font-size: 12px;
+    color: rgba(0,0,0,.54);;
+}
+.botao-ver-mais{
+    padding: 10px;
+    background-color: #ee4d2d;
+}
+.vermais{
+    margin: 15px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 13% 10px 13%;
+    border: #c2c0c0 1px solid;
+}
+.vermais:hover{
+    background-color: #e8e8e8;
+}
+footer{
+    padding: 50px 0 50px 0;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;;
+    
+}
+footer a{
+    color: rgba(0,0,0,.65);
+    padding-top: 5px;
+    font-size: 13px;
+}
+footer a:hover{
+    color: #ee4d2d;
+}
+footer div{
+    display: grid;
+    
+}
+footer .org{
+    display: block;
+    width: 170px;
+    text-align: initial;
+}
+.ant-footer{
+    background-color:#eeeeee;
+}
